@@ -1,0 +1,9 @@
+language: python 
+python: 
+- "3.6"
+script: 
+- cd NoTravis
+- python3 holamundo.py
+- cd ../
+- cd Travis
+- python3 holamundo.py
